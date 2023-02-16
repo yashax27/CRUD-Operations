@@ -1,0 +1,23 @@
+create database student;
+use student;
+create table student(rollno int primary key, stuname varchar(50),course varchar(50),percentage varchar(50));
+
+mysql> insert into student values(401,'raj','computer science',89);
+
+mysql> insert into student values(402,'jay','computer science',59);
+
+mysql> insert into student values(403,'jayshri','IT',79);
+
+mysql> insert into student values(404,'rishi','E&tc',77);
+
+mysql> insert into student values(405,'rishika','E&tc',57);
+
+mysql> insert into student values(406,'ishika','E&tc',54);
+
+mysql> insert into student values(407,'ishita','civil',86);
+
+mysql> insert into student values(408,'misha','mechanical',66);
+
+mysql> insert into student values(409,'misha','architecture',86);
+
+mysql> insert into student values(410,'karan','architecture',96);
